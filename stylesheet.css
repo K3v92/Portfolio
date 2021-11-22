@@ -1,0 +1,113 @@
+/*Code that changes font-family,font-size and background color*/
+body{
+    font-family: Comic Sans, Comic Sans MS, cursive; color: ghostwhite;
+    font-size: 20px;
+    background-color: #1A1A1D;
+    
+  }
+  
+  /*Code where our image sits, this code aligns the intro text, gives background a olor and a border*/
+  header {
+    text-align: center;
+    background-color: #F0E5E3;
+    border: inset 2px black;
+    position: relative;
+    top:0px;
+    left:5px;
+
+  }
+  
+  footer {
+    /*Background color, border and centering footer*/
+    background-color: #F0E5E3;
+    border: inset 2px black;
+    text-align: center;
+  
+    /*center for position for center for footer section*/
+    position: relative;
+    top:400px;
+    bottom: 100px;
+    left:5px;
+
+
+
+  }
+  
+  
+  
+  .menu{
+      background-color:#F0E5E3;
+      border: inset 2px black;
+
+      /*fixed menu on left*/
+      position: absolute;
+      left: 4px;
+      margin-top: -27px;
+      width: 300px;
+      margin-left: 9px;
+      padding-bottom: 1150px;
+   
+    }
+    
+  
+  /*Education part of body - using position to move the education part of website*/
+  .content { 
+  position: relative;
+  left: 370px ;
+  top: 35px;
+
+  }
+  
+    /*Jobs part of body - using position to move the jobs part of website*/
+  .jobs {
+  position: relative;
+  left: 370px;
+  top: 35px;
+  }
+  
+  
+   /*All hrefs colors changed to #4E4E50*/
+  
+  a {
+   color:#4E4E50;
+  }
+  
+   /*The image on the website given width and border radius to make it circle*/
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: double 5px #1A1A1D;
+    margin-top: 20px;
+  }
+  
+  /*Menu code given color #4E4E50 and padding*/
+  .nav { 
+   padding-left: 40px;
+   color:#4E4E50;
+}
+  
+  /*Code to take bullet points out of unordered list*/
+  .list {
+   list-style: none;
+  }
+  
+   /*color of the text for introductry statement and name*/
+  .intro {
+   color:#4E4E50;
+   padding-left: 35%;
+   padding-right: 35%;
+  }
+  
+  /*The contact details text given the color #4E4E50 with fontsize of 40px*/
+  .contact {
+   color: #4E4E50;
+   font-size: 40px;
+}
+  
+    /*skills part of body - using position to move the skills part of website*/
+  .talents {
+   position: relative;
+   left: 370px;
+   top: 35px;
+}
