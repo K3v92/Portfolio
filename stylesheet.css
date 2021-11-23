@@ -1,113 +1,119 @@
-/*Code that changes font-family,font-size and background color*/
-body{
-    font-family: Comic Sans, Comic Sans MS, cursive; color: ghostwhite;
-    font-size: 20px;
-    background-color: #1A1A1D;
-    
+/*Code for header of page, given font-family of cursive & and background color of #1A1A1D*/
+body {
+  font-family: Comic Sans, Comic Sans MS, cursive; color: ghostwhite;
+  background-color: #1A1A1D;
+  
+}
+
+/*Code for header of page, given text-align of center, BG color of #F0E5E3, floating right and given margin,border and padding accordingly*/
+header {
+  text-align: center;
+  background-color: #F0E5E3;
+  float: right;
+  margin-left: 220px;
+  margin-top: 20px;
+  border: inset 2px black;
+  padding-top: 13px;
+  width: 1339px;
+}
+
+/*Code for footer, given BG color #F0E5E3,text-align of center, floating right and given margins,borders, padding and width accordingly*/
+footer {
+  background-color: #F0E5E3;
+  border: inset 2px black;
+  text-align: center;
+  float: right;
+  width: 1339px;
+  padding-bottom: 50px;
+
+}
+
+
+
+/*Code for menu on the left, given BG color of #F0E5E3,floating left and given margins,borders,padding and width accordingly */
+.menu {
+  background-color:#F0E5E3;
+  border: inset 2px;
+
+   /*fixed menu on left*/
+   float: left;
+   margin-top: -1px;
+   width: 250px;
+   margin-left: 9px;
+   padding-bottom: 670px;
+ 
   }
   
-  /*Code where our image sits, this code aligns the intro text, gives background a olor and a border*/
-  header {
-    text-align: center;
-    background-color: #F0E5E3;
-    border: inset 2px black;
-    position: relative;
-    top:0px;
-    left:5px;
 
-  }
-  
-  footer {
-    /*Background color, border and centering footer*/
-    background-color: #F0E5E3;
-    border: inset 2px black;
-    text-align: center;
-  
-    /*center for position for center for footer section*/
-    position: relative;
-    top:400px;
-    bottom: 100px;
-    left:5px;
-
-
-
-  }
-  
-  
-  
-  .menu{
-      background-color:#F0E5E3;
-      border: inset 2px black;
-
-      /*fixed menu on left*/
-      position: absolute;
-      left: 4px;
-      margin-top: -27px;
-      width: 300px;
-      margin-left: 9px;
-      padding-bottom: 1150px;
+/*Code for Education section of page given float left and padding and margin accordingly*/
+.content {
+   float:left;
+   padding-left: 25px;
+   margin-top: 7px;
    
-    }
-    
-  
-  /*Education part of body - using position to move the education part of website*/
-  .content { 
-  position: relative;
-  left: 370px ;
-  top: 35px;
+}
 
-  }
+/*Code for Experience section of page given float left and padding and margin accordingly**/
+.jobs {
+  float:left;
+  padding-left: 25px;
+  margin-top: 7px;
+}
+
+/*Code for Skills section of page given float left and padding accordingly*/
+.talents {
+  float: left;
+  padding-right: 350px;
+  padding-top: 7px;
+  padding-left: 25px;
   
-    /*Jobs part of body - using position to move the jobs part of website*/
-  .jobs {
-  position: relative;
-  left: 370px;
-  top: 35px;
-  }
+
+}
+
+
+/*Code for href's on page given color #4E4E50*/
+a {
+  color:#4E4E50;
   
+}
+
+/*Code for imgage on page given width,height, double border,border radius to make imgage circle */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: double 5px #1A1A1D;
+ 
   
-   /*All hrefs colors changed to #4E4E50*/
-  
-  a {
-   color:#4E4E50;
-  }
-  
-   /*The image on the website given width and border radius to make it circle*/
-  img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: double 5px #1A1A1D;
-    margin-top: 20px;
-  }
-  
-  /*Menu code given color #4E4E50 and padding*/
-  .nav { 
+}
+
+/*Code for h2 (Menu text) given padding and color of #4E4E50 */
+.nav {
    padding-left: 40px;
    color:#4E4E50;
+  
+
 }
-  
-  /*Code to take bullet points out of unordered list*/
-  .list {
-   list-style: none;
-  }
-  
-   /*color of the text for introductry statement and name*/
-  .intro {
-   color:#4E4E50;
-   padding-left: 35%;
-   padding-right: 35%;
-  }
-  
-  /*The contact details text given the color #4E4E50 with fontsize of 40px*/
-  .contact {
-   color: #4E4E50;
-   font-size: 40px;
+
+/*UL Code for Menu on left given list style of none to remove bullet points */
+.list {
+    list-style: none;
+    
+    
 }
-  
-    /*skills part of body - using position to move the skills part of website*/
-  .talents {
-   position: relative;
-   left: 370px;
-   top: 35px;
+
+/*Code for our intro text (Name and introductry text) given color #4E4E50 and padding*/
+.intro {
+  color:#4E4E50;
+  padding-left: 35%;
+  padding-right: 35%;
 }
+
+/*Code for h2 (Contact details text) fiven color #4E4E50 and fontsize of 40px*/
+.contact {
+color: #4E4E50;
+font-size: 40px;
+
+}
+
+
